@@ -2,7 +2,7 @@
 
 This is a script to to change the identifiers for SNPs in a PLINK bim file. The old bim file is as follows:
 
-`
+
 0       SNP_A-2239604   0       0       A       T
 
 0       SNP_A-1963219   0       0       A       T
@@ -23,10 +23,10 @@ This is a script to to change the identifiers for SNPs in a PLINK bim file. The 
 
 0       SNP_A-4252982   0       0       G       A
 
-`
+
 
 We assume that we have an annotations for the chip (here taken from Will Raynor's site Nsp-Sty.na30-b36-strand.zip). These look as follows
-`
+
 Probe Set ID    dbSNP RS ID Chromosome  Physical Position   Strand
 
 SNP_A-1780358   rs17325399  5   54442707    +
@@ -46,7 +46,6 @@ SNP_A-1780350   rs7785921   7   36729248    -
 SNP_A-1780748   rs2776928   10  33614411    -
 
 SNP_A-1780747   rs1108543   19  62191356    +
-`
 
 This script produces an updated BIM that  alters identifier, chromsome and
 position and prints a copy of the new bim file based on the annotation file. We
